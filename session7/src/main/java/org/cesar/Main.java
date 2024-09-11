@@ -24,7 +24,7 @@ public class Main {
 
         int count = 0;
         /*
-        * By default elements are egual to 0, useless if there is actually an*/
+        * By default elements are egual to 0, useless if we expect a 0 in the array*/
         for (int i : array){
             if (i != 0){
                 count++;
